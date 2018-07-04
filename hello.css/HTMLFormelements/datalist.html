@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>DATA LIST ELEMENTS</h2>
+        <!--The <datalist> element specifies a list of 
+            pre-defined options for an <input> element.
+         Users will see a drop-down list of the pre-defined 
+          Options as they input data.
+        The list attribute of the <input> element,
+         must refer to the id attribute of the <datalist> element.-->
+        <input list="browser">
+        <datalist id="browser">
+            <option value="internet explorer"></option>
+            <option value="Chrome"></option>
+            <option value="Opera"></option>
+            <option value="microsofr edge"></option>
+        </datalist>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
